@@ -1,0 +1,27 @@
+﻿<Properties StartupConfiguration="{C8C413FD-9145-4BD9-9D88-17A92996BAFA}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Extensions/HostExtensions.cs">
+    <Files>
+      <File FileName="Extensions/HostExtensions.cs" Line="15" Column="51" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Discount.API" expanded="True">
+            <Node name="Discount.API" expanded="True">
+              <Node name="Extensions" expanded="True">
+                <Node name="HostExtensions.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Discount.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
