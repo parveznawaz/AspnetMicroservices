@@ -1,0 +1,41 @@
+dotnet new sln --name AspnetMicroservices
+dotnet new webapi --framework net5.0 -n Catalog.API
+dotnet new webapi --framework net5.0 -n Basket.API
+dotnet new webapi --framework net5.0 -n Discount.API
+dotnet sln add ./Services/Catalog/Catalog.API/Catalog.API.csproj
+
+sudo xcode-select --reset
+
+
+docker pull mongo
+docker ps
+
+docker run -d -p 27017:27017 --name shopping-mongo mongo
+docker logs -f shopping-mongo
+docker exec -it shopping-mongo /bin/bash
+
+docker stop [container_id]
+docker rm [container_id]
+docker rmi [container_id]
+docker ps -a
+
+docker-compose -f ./docker-compose.yml -f ./docker-compose.override.yml up -d
+docker-compose -f ./docker-compose.yml -f ./docker-compose.override.yml down
+docker rmi $(docker images -q)
+docker system prune
+docker images
+
+
+docker run -d -p 3000:3000 mongoclient/mongoclient
+localhost:3000
+
+
+
+redis
+================================================================
+docker run -d -p 6379:6379 --name aspnetrun-redis redis
+
+docker exec -it aspnetrun-redis /bin/bash
+redis-cli
+set key value
+get key
