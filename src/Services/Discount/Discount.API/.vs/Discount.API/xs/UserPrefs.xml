@@ -7,10 +7,8 @@
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Discount.API" expanded="True">
-            <Node name="Discount.API" expanded="True">
-              <Node name="Extensions" expanded="True">
-                <Node name="HostExtensions.cs" selected="True" />
-              </Node>
+            <Node name="Discount.API" expanded="True" selected="True">
+              <Node name="Extensions" expanded="True" />
             </Node>
           </Node>
         </State>

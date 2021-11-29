@@ -9,6 +9,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{5A5D
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{B3B9E4E5-8879-4F6B-97EE-220AF485F77A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Discount.Gprc", "Services\Discount\Discount.Gprc\Discount.Gprc.csproj", "{AAD498C7-6B4D-414E-B10A-69A3FB75EBD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,18 @@ Global
 		{B3B9E4E5-8879-4F6B-97EE-220AF485F77A}.Release|x64.Build.0 = Release|Any CPU
 		{B3B9E4E5-8879-4F6B-97EE-220AF485F77A}.Release|x86.ActiveCfg = Release|Any CPU
 		{B3B9E4E5-8879-4F6B-97EE-220AF485F77A}.Release|x86.Build.0 = Release|Any CPU
+		{AAD498C7-6B4D-414E-B10A-69A3FB75EBD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAD498C7-6B4D-414E-B10A-69A3FB75EBD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAD498C7-6B4D-414E-B10A-69A3FB75EBD0}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{AAD498C7-6B4D-414E-B10A-69A3FB75EBD0}.Debug|x64.Build.0 = Debug|Any CPU
+		{AAD498C7-6B4D-414E-B10A-69A3FB75EBD0}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{AAD498C7-6B4D-414E-B10A-69A3FB75EBD0}.Debug|x86.Build.0 = Debug|Any CPU
+		{AAD498C7-6B4D-414E-B10A-69A3FB75EBD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAD498C7-6B4D-414E-B10A-69A3FB75EBD0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAD498C7-6B4D-414E-B10A-69A3FB75EBD0}.Release|x64.ActiveCfg = Release|Any CPU
+		{AAD498C7-6B4D-414E-B10A-69A3FB75EBD0}.Release|x64.Build.0 = Release|Any CPU
+		{AAD498C7-6B4D-414E-B10A-69A3FB75EBD0}.Release|x86.ActiveCfg = Release|Any CPU
+		{AAD498C7-6B4D-414E-B10A-69A3FB75EBD0}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,5 +55,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{5A5D47F7-0BB8-494D-B1AB-08DAEA653E1C} = {C5899BE7-E0ED-49EE-BFC9-30131EA339BB}
 		{B3B9E4E5-8879-4F6B-97EE-220AF485F77A} = {5A5D47F7-0BB8-494D-B1AB-08DAEA653E1C}
+		{AAD498C7-6B4D-414E-B10A-69A3FB75EBD0} = {C5899BE7-E0ED-49EE-BFC9-30131EA339BB}
 	EndGlobalSection
 EndGlobal

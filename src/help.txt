@@ -2,6 +2,8 @@ dotnet new sln --name AspnetMicroservices
 dotnet new webapi --framework net5.0 -n Catalog.API
 dotnet new webapi --framework net5.0 -n Basket.API
 dotnet new webapi --framework net5.0 -n Discount.API
+dotnet new grpc --framework net5.0 -n Discount.Grpc
+
 dotnet sln add ./Services/Catalog/Catalog.API/Catalog.API.csproj
 
 sudo xcode-select --reset

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/parveznawaz/DotNet/AspnetMicroservices/src/Services/Catalog/Catalog.API/Catalog.API.csproj": {}
+    "/Users/parveznawaz/DotNet/AspnetMicroservices/src/Services/Discount/Discount.Gprc/Discount.Gprc.csproj": {}
   },
   "projects": {
-    "/Users/parveznawaz/DotNet/AspnetMicroservices/src/Services/Catalog/Catalog.API/Catalog.API.csproj": {
+    "/Users/parveznawaz/DotNet/AspnetMicroservices/src/Services/Discount/Discount.Gprc/Discount.Gprc.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/parveznawaz/DotNet/AspnetMicroservices/src/Services/Catalog/Catalog.API/Catalog.API.csproj",
-        "projectName": "Catalog.API",
-        "projectPath": "/Users/parveznawaz/DotNet/AspnetMicroservices/src/Services/Catalog/Catalog.API/Catalog.API.csproj",
+        "projectUniqueName": "/Users/parveznawaz/DotNet/AspnetMicroservices/src/Services/Discount/Discount.Gprc/Discount.Gprc.csproj",
+        "projectName": "Discount.Gprc",
+        "projectPath": "/Users/parveznawaz/DotNet/AspnetMicroservices/src/Services/Discount/Discount.Gprc/Discount.Gprc.csproj",
         "packagesPath": "/Users/parveznawaz/.nuget/packages/",
-        "outputPath": "/Users/parveznawaz/DotNet/AspnetMicroservices/src/Services/Catalog/Catalog.API/obj/",
+        "outputPath": "/Users/parveznawaz/DotNet/AspnetMicroservices/src/Services/Discount/Discount.Gprc/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
@@ -41,33 +41,9 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "dependencies": {
-            "AspNet.HealthChecks.UI.Client": {
+            "Grpc.AspNetCore": {
               "target": "Package",
-              "version": "[1.0.0, )"
-            },
-            "AspNetCore.HealthChecks.MongoDb": {
-              "target": "Package",
-              "version": "[5.0.1, )"
-            },
-            "AspNetCore.HealthChecks.UI.Client": {
-              "target": "Package",
-              "version": "[5.0.1, )"
-            },
-            "Microsoft.AspNetCore.Diagnostics.HealthChecks": {
-              "target": "Package",
-              "version": "[2.2.0, )"
-            },
-            "Microsoft.Extensions.Diagnostics.HealthChecks": {
-              "target": "Package",
-              "version": "[6.0.0, )"
-            },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[2.13.2, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[5.6.3, )"
+              "version": "[2.34.0, )"
             }
           },
           "imports": [
